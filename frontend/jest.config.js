@@ -1,8 +1,3 @@
-module.exports = {
-  roots: ['<rootDir>/src/tests/'],
-  transform: {
-    '^.+\\.tsx?$': 'ts-jest',
-  },
-  testRegex: '(/tests/.*|(\\.|/)(test|spec))\\.tsx?$',
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-};
+// Tests are run via react-scripts test (CRA built-in runner).
+// This file is kept for reference only; it is not used by `npm test`.
+module.exports = {};
